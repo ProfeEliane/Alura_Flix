@@ -2,11 +2,15 @@ body {
     color: rgb(157, 235, 250);
     background-color: black;
     font-family: "Indie Flower", cursive;
+    margin: 0px;
 }
 
 
 header{
     font-size: 250px;
+    border-bottom: dashed 10px lavender;
+    /*margin: 30px; */
+    padding: 30px;
 }
 
 h1{ 

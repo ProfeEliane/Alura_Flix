@@ -8,6 +8,7 @@ body {
 
 header{
     font-size: 50px;
+    text-align: center;
     border-bottom: dashed 5px lavender;
     /*margin: 30px; */
     padding: 30px;
@@ -22,7 +23,32 @@ h1{
 p{
     font-size: 20px;
 }
+
+.chamada {
+    background-color: rgb(29, 148, 239);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content:center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
 img {
     width: 200px;
     height: 300px;
+}
+
+.outrasRecomendacoes {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-left: 20px;
+    scroll-padding-bottom: 20px;
+
+}
+h2{
+    padding-left: 20px;
 }
